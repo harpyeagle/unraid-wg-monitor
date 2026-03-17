@@ -22,7 +22,7 @@
 WG_INTERFACE="wg1"
 
 # How old (in seconds) a handshake can be before the tunnel is considered stale
-# WireGuard re-keys every 180s; NordVPN peers are typically unresponsive after
+# WireGuard re-keys every 180s; VPN peers are typically unresponsive after
 # ~3 minutes of silence. 300s (5 min) is a safe threshold. Adjust if needed.
 MAX_HANDSHAKE_AGE_SECONDS=300   # 5 minutes — change to 3600 for 1 hour
 
